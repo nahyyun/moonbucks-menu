@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #f1f5f9;
+}
+
+#root {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    margin: 50px;
+}
+
+.nav-list {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 400px;
+}
+
+.nav-list li {
+    padding: 18px;
+    margin-right: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #9ae6f268;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li:hover {
+    background-color: #afeee0;
+    color: white;
+}
+
+menuContainer {
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffffffb;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+menuContainer .heading {
+    display: flex;
+    width: 80%;
+}
+
+menuContainer .heading .menu-title {
+    width: 90%;
+    font-size: 25px;
+}
+
+menuContainer .heading span {
+    margin: auto;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    width: 80%;
+}
+
+.form .input {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-right: 20px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #f1f5f9;
+}
+
+.form .btn {
+    height: 50px;
+    width: 100px;
+    background-color: #9ae6f268;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+}
+
+.form .btn:hover {
+    background-color:#afeee0;
+}
+
+ul li .btn {
+    background-color: #f1f5f9;
+    border-radius: 25px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.menu-list {
+    width: 80%;
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.menu-list li span{
+    width: 100%;
+}
+
+ul li .btn {
+    margin-right: 5px;
+}
+
+ul li .btn:last-child {
+    margin-right: 0px;
+}
+
+ul li .btn:hover {
+    background-color: rgb(229, 231, 235);
+}
+
+.sold-out {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+
